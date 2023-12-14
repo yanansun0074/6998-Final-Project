@@ -180,7 +180,7 @@ public class LoadFlightLines : MonoBehaviour
                     float z = float.Parse(vertexComponents[2]);
 
                     // Store the coordinates
-                    Vector3 vertex = new Vector3(x, y, z);
+                    Vector3 vertex = new Vector3(x, y+5, z);
                     vertices[v++] = vertex;
                 }
             }
@@ -192,6 +192,8 @@ public class LoadFlightLines : MonoBehaviour
 
             // Add material
             lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
+            // An attempt to fix Mac rendering issue, but failed :(
+            // lineRenderer.material = new Material(Shader.Find("Universal Render Pipeline/Lit"));
 
             // Create collider
             for (int i = 1; i < vertices.Length; i++)

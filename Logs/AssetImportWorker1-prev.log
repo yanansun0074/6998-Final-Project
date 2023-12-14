@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 65277 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-D:\UnityHub\editor2022310f1\2021.3.14f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/6998-Final-Project/IceSheet_Navigation/PolXR
+/Users/apple/Desktop/VR AR/6998-Final-Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50324
-Successfully changed project path to: D:/6998-Final-Project/IceSheet_Navigation/PolXR
-D:/6998-Final-Project/IceSheet_Navigation/PolXR
+58952
+Successfully changed project path to: /Users/apple/Desktop/VR AR/6998-Final-Project
+/Users/apple/Desktop/VR AR/6998-Final-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,224 +54,1054 @@ D:/6998-Final-Project/IceSheet_Navigation/PolXR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 119.02 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 1.16 ms.
+Refreshing native plugins compatible for Editor in 1051.26 ms, found 8 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 2.57 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
-[Subsystems] Discovering subsystems at path D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/6998-Final-Project/IceSheet_Navigation/PolXR/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/apple/Desktop/VR AR/6998-Final-Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
-    Vendor:   NVIDIA
-    VRAM:     12026 MB
-    Driver:   31.0.15.3742
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56465
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002716 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.38 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003264 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 274.70 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
+- Completed reload, in  1.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (629ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (2000ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (466ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1439ms)
+			LoadAssemblies (249ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (289ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (874ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				InitializePlatformSupportModulesInManaged (278ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (276ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010855 seconds.
+Registered in 0.055381 seconds.
+Android Extension - Scanning For ADB Devices 671 ms
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.37 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.10 ms.
-Added DLL directory D:\6998-Final-Project\IceSheet_Navigation\PolXR\Library\PackageCache\com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703\Plugins\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 246.18 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 5.35 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.Windows.MixedReality.DotNetWinRT.Init:.cctor () (at Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:46)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
 
-(Filename: Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs Line: 46)
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 DisplayProgressbar: Restoring NuGet Packages
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-[XR] OVRP version 1.75.0
-[XR] [MROpenXR][Info   ][19:22:33.375597][tid:77fc] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][19:22:33.375637][tid:77fc] InputProvider_RegisterLifecycleProvider
-[XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][19:22:33.376948][tid:77fc] OnPluginStarted UnityVersion=2021.3.14f1 OpenXRPluginVersion=1.6.0 MROpenXRPluginVersion=1.6.0.0 PartA_PrivTags=33554432
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+UnityEditor.EditorBuildSettings:GetConfigObject(String)
+UnityEditor.EditorBuildSettings:TryGetConfigObject(String, Object&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorBuildSettings.bindings.cs:127)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetPackageSettings() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRSettings.cs:87)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetSettingsForBuildTargetGroup(BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRSettings.cs:78)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:GetFullValidationList(List`1, BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/Features/OpenXRFeature.cs:409)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:GetAllValidationIssues(List`1, BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRProjectValidation.cs:270)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs:70)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.716 seconds
+- Completed reload, in  5.569 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1717ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (5573ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1517ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (5044ms)
+			LoadAssemblies (448ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (980ms)
+			SetupTypeCache (861ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (262ms)
+			SetupLoadedEditorAssemblies (3384ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (692ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (252ms)
+				BeforeProcessingInitializeOnLoad (258ms)
+				ProcessInitializeOnLoadAttributes (2688ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
 				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.04 ms.
-Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 123 unused Assets / (142.7 KB). Loaded Objects now: 6124.
-Memory consumption went from 222.5 MB to 222.4 MB.
-Total: 2.559200 ms (FindLiveObjects: 0.256300 ms CreateObjectMapping: 0.091400 ms MarkObjects: 2.103500 ms  DeleteObjects: 0.107600 ms)
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.87 ms.
+Unloading 7438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (0.8 MB). Loaded Objects now: 7886.
+Memory consumption went from 273.3 MB to 272.5 MB.
+Total: 7.495970 ms (FindLiveObjects: 0.575658 ms CreateObjectMapping: 0.381324 ms MarkObjects: 5.780477 ms  DeleteObjects: 0.756520 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355259.952759 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/AntARctica MixedRealitySpeechCommandsProfile.asset
+  artifactKey: Guid(e815df47005dd1349bb8bfdeb9b6e5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/AntARctica MixedRealitySpeechCommandsProfile.asset using Guid(e815df47005dd1349bb8bfdeb9b6e5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc3e6269877e95d44393e44c7b8696b') in 1.504712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/FixedGuardianMixedRealityBoundaryVisualizationProfile.asset
+  artifactKey: Guid(a1a628168ef882444850dd61ac2e07af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/FixedGuardianMixedRealityBoundaryVisualizationProfile.asset using Guid(a1a628168ef882444850dd61ac2e07af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16530f62a79c15adeb0cc0eec0b69954') in 0.015438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/MyMixedRealityInputActionsProfile.asset
+  artifactKey: Guid(3e2057f9b1d664cbeaa619f9ab1fa457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/MyMixedRealityInputActionsProfile.asset using Guid(3e2057f9b1d664cbeaa619f9ab1fa457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecdf3710857cac7de708c5c0bb4a374') in 0.006200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/AntARctica MixedRealityPointerProfile.asset
+  artifactKey: Guid(f991880ee4486b8498115b0c700e40cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/AntARctica MixedRealityPointerProfile.asset using Guid(f991880ee4486b8498115b0c700e40cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020a65cf07cc5685c16a1e04f215e2f5') in 0.096456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/MixedRealityCameraProfile AntARctica.asset
+  artifactKey: Guid(b94701697dd228f42972f95dbb82e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/MixedRealityCameraProfile AntARctica.asset using Guid(b94701697dd228f42972f95dbb82e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f206348db2ad34696fcdec854152c6') in 0.008540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/AntARctica MixedRealityInputSystemProfile.asset
+  artifactKey: Guid(e65faec97180c7e4cb238c84c284af16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/AntARctica MixedRealityInputSystemProfile.asset using Guid(e65faec97180c7e4cb238c84c284af16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af456646db882209c1b6a5a73fe53ccd') in 0.329106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.482587 seconds.
+  path: Assets/MixedRealityToolkit.Generated/CustomProfiles/MyMixedRealityInputActionsProfile.asset
+  artifactKey: Guid(3e2057f9b1d664cbeaa619f9ab1fa457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/CustomProfiles/MyMixedRealityInputActionsProfile.asset using Guid(3e2057f9b1d664cbeaa619f9ab1fa457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6879c0604e90064dcb078473092e5959') in 0.008462 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.83 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2982ms)
+		BeginReloadAssembly (354ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (160ms)
+		EndReloadAssembly (2377ms)
+			LoadAssemblies (328ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (659ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (894ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.03 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.83 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (0.7 MB). Loaded Objects now: 7893.
+Memory consumption went from 338.4 MB to 337.7 MB.
+Total: 7.466723 ms (FindLiveObjects: 0.865975 ms CreateObjectMapping: 0.474111 ms MarkObjects: 5.266221 ms  DeleteObjects: 0.858993 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008835 seconds.
+Registered in 0.015012 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.94 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.117 seconds
+- Completed reload, in  2.626 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1117ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (2627ms)
+		BeginReloadAssembly (225ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (2248ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (478ms)
+			SetupTypeCache (562ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (947ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.62 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
-Unloading 5511 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 115 unused Assets / (108.1 KB). Loaded Objects now: 6126.
-Memory consumption went from 209.5 MB to 209.4 MB.
-Total: 3.503700 ms (FindLiveObjects: 0.383300 ms CreateObjectMapping: 0.130700 ms MarkObjects: 2.870400 ms  DeleteObjects: 0.118600 ms)
+Refreshing native plugins compatible for Editor in 25.84 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.81 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.7 MB). Loaded Objects now: 7897.
+Memory consumption went from 343.3 MB to 342.6 MB.
+Total: 7.389128 ms (FindLiveObjects: 0.540376 ms CreateObjectMapping: 0.413145 ms MarkObjects: 5.354143 ms  DeleteObjects: 1.079891 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2912.592279 seconds.
-  path: Assets/Resources/Daco_28712.png
-  artifactKey: Guid(e260343274004a348b3e0833ae93941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Daco_28712.png using Guid(e260343274004a348b3e0833ae93941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af64c005c64d81c58dab4f2c1f000b48') in 0.082071 seconds 
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 54.40 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.85 ms.
+Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.8 MB). Loaded Objects now: 7897.
+Memory consumption went from 199.2 MB to 198.4 MB.
+Total: 7.273226 ms (FindLiveObjects: 0.677068 ms CreateObjectMapping: 0.612014 ms MarkObjects: 5.210797 ms  DeleteObjects: 0.771593 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Resources/OVRBuildConfig.asset
-  artifactKey: Guid(b526e7f08e272b34eb73e49578607ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/OVRBuildConfig.asset using Guid(b526e7f08e272b34eb73e49578607ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0006d6d1002bcb7cff8c95aa79ba8845') in 0.014764 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.97 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.210 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3218ms)
+		BeginReloadAssembly (548ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (250ms)
+		EndReloadAssembly (2477ms)
+			LoadAssemblies (425ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (693ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (873ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.99 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.83 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.7 MB). Loaded Objects now: 7901.
+Memory consumption went from 347.3 MB to 346.5 MB.
+Total: 7.581856 ms (FindLiveObjects: 0.574699 ms CreateObjectMapping: 0.441875 ms MarkObjects: 5.106144 ms  DeleteObjects: 1.457253 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/Placeholder Radar Image.png
-  artifactKey: Guid(9bb22a81707488946b25dea682dbc74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Placeholder Radar Image.png using Guid(9bb22a81707488946b25dea682dbc74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7f03e14953bd9eddcff4bd0fcba093') in 0.017783 seconds 
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.72 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.16 ms.
+Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.8 MB). Loaded Objects now: 7901.
+Memory consumption went from 203.1 MB to 202.4 MB.
+Total: 7.388790 ms (FindLiveObjects: 0.627790 ms CreateObjectMapping: 0.930828 ms MarkObjects: 5.108045 ms  DeleteObjects: 0.720491 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/OVRPlatformToolSettings.asset
-  artifactKey: Guid(d496df591d214704b89d8a2ad96dc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(d496df591d214704b89d8a2ad96dc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec164405bf6052587ee44c93da13b347') in 0.010075 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.03 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3478ms)
+		BeginReloadAssembly (476ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (205ms)
+		EndReloadAssembly (2805ms)
+			LoadAssemblies (390ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (672ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (1566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (1274ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 33.81 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.81 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.7 MB). Loaded Objects now: 7905.
+Memory consumption went from 351.3 MB to 350.6 MB.
+Total: 14.034820 ms (FindLiveObjects: 0.599234 ms CreateObjectMapping: 0.666822 ms MarkObjects: 11.863900 ms  DeleteObjects: 0.903043 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/OculusPlatformSettings.asset
-  artifactKey: Guid(1d97c447b99d0db4bb7ea19142ea0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/OculusPlatformSettings.asset using Guid(1d97c447b99d0db4bb7ea19142ea0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff8bc26142d947da57f442328a75ed') in 0.014741 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 97.13 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.41 ms.
+Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.8 MB). Loaded Objects now: 7905.
+Memory consumption went from 207.1 MB to 206.4 MB.
+Total: 12.197198 ms (FindLiveObjects: 0.934821 ms CreateObjectMapping: 0.756301 ms MarkObjects: 9.679995 ms  DeleteObjects: 0.824439 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 77.81 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.91 ms.
+Unloading 128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.8 MB). Loaded Objects now: 7905.
+Memory consumption went from 206.3 MB to 205.6 MB.
+Total: 7.381717 ms (FindLiveObjects: 0.738918 ms CreateObjectMapping: 0.467167 ms MarkObjects: 5.407016 ms  DeleteObjects: 0.767003 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.97 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.99 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5379ms)
+		BeginReloadAssembly (1002ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (605ms)
+		EndReloadAssembly (4090ms)
+			LoadAssemblies (319ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1180ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (196ms)
+			SetupLoadedEditorAssemblies (2159ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (1675ms)
+				ProcessInitializeOnLoadMethodAttributes (189ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 36.33 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.05 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.7 MB). Loaded Objects now: 7909.
+Memory consumption went from 354.5 MB to 353.7 MB.
+Total: 7.634667 ms (FindLiveObjects: 0.557896 ms CreateObjectMapping: 0.393861 ms MarkObjects: 5.478207 ms  DeleteObjects: 1.202933 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.85 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2788ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2317ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (671ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (1121ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (855ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.27 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.87 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.7 MB). Loaded Objects now: 7913.
+Memory consumption went from 359.3 MB to 358.6 MB.
+Total: 6.474754 ms (FindLiveObjects: 0.556937 ms CreateObjectMapping: 0.529961 ms MarkObjects: 4.672304 ms  DeleteObjects: 0.714337 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.90 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+  at Microsoft.MixedReality.OpenXR.MixedRealityFeaturePlugin.OnEnable () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/MixedRealityFeaturePlugin.cs:117 
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.626 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2627ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (2241ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (954ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 28.54 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.25 ms.
+Unloading 7173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 128 unused Assets / (0.7 MB). Loaded Objects now: 7917.
+Memory consumption went from 364.2 MB to 363.5 MB.
+Total: 9.637157 ms (FindLiveObjects: 0.860415 ms CreateObjectMapping: 0.810477 ms MarkObjects: 6.612706 ms  DeleteObjects: 1.351516 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

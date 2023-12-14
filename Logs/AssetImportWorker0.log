@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 65277 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-D:\UnityHub\editor2022310f1\2021.3.14f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/6998-Final-Project
+/Users/apple/Desktop/VR AR/6998-Final-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52197
-Successfully changed project path to: D:/6998-Final-Project
-D:/6998-Final-Project
+61404
+Successfully changed project path to: /Users/apple/Desktop/VR AR/6998-Final-Project
+/Users/apple/Desktop/VR AR/6998-Final-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,190 +54,452 @@ D:/6998-Final-Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.65 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.93 ms.
+Refreshing native plugins compatible for Editor in 909.57 ms, found 8 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 2.92 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
-[Subsystems] Discovering subsystems at path D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/6998-Final-Project/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/apple/Desktop/VR AR/6998-Final-Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
-    Vendor:   NVIDIA
-    VRAM:     12026 MB
-    Driver:   31.0.15.3742
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56654
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/UnityHub/editor2022310f1/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002350 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.48 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.008303 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 190.05 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.82 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  1.198 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (1199ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (405ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (197ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (491ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				InitializePlatformSupportModulesInManaged (83ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009109 seconds.
+Registered in 0.063797 seconds.
+Android Extension - Scanning For ADB Devices 4122 ms
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.60 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Added DLL directory D:\6998-Final-Project\Library\PackageCache\com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703\Plugins\x64 to the user search path.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 214.69 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 4.35 ms.
+System.EntryPointNotFoundException: LoadLibraryExW assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.Windows.MixedReality.DotNetWinRT.Init.LoadLibraryExW(string,intptr,uint)
+  at Microsoft.Windows.MixedReality.DotNetWinRT.Init..cctor () [0x00000] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:29 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Microsoft.Windows.MixedReality.DotNetWinRT.Init:.cctor () (at Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:46)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:130)
 
-(Filename: Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@c4cffcb2b703/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs Line: 46)
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 DisplayProgressbar: Restoring NuGet Packages
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-[XR] OVRP version 1.75.0
-[XR] [MROpenXR][Info   ][20:14:49.839447][tid:728] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][20:14:49.839487][tid:728] InputProvider_RegisterLifecycleProvider
-[XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][20:14:49.840518][tid:728] OnPluginStarted UnityVersion=2021.3.14f1 OpenXRPluginVersion=1.6.0 MROpenXRPluginVersion=1.6.0.0 PartA_PrivTags=33554432
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/MicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/lib/libMicrosoftOpenXRPlugin
+DllNotFoundException: MicrosoftOpenXRPlugin assembly:<unknown assembly> type:<unknown type> member:(null)
+  at (wrapper managed-to-native) Microsoft.MixedReality.OpenXR.NativeLib.SetPluginEnvironment(Microsoft.MixedReality.OpenXR.PluginEnvironment,string)
+  at Microsoft.MixedReality.OpenXR.PluginEnvironmentSubsystem.InitializePlugin () [0x0000d] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs:38 
+  at Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1[TPlugin].OnEnable () [0x00006] in /Users/apple/Desktop/VR AR/6998-Final-Project/Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/FeaturePlugins/OpenXRFeaturePlugin.cs:60 
+UnityEditor.EditorBuildSettings:GetConfigObject(String)
+UnityEditor.EditorBuildSettings:TryGetConfigObject(String, Object&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorBuildSettings.bindings.cs:127)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetPackageSettings() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRSettings.cs:87)
+UnityEngine.XR.OpenXR.OpenXRSettings:GetSettingsForBuildTargetGroup(BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRSettings.cs:78)
+UnityEngine.XR.OpenXR.Features.OpenXRFeature:GetFullValidationList(List`1, BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/Features/OpenXRFeature.cs:409)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:GetAllValidationIssues(List`1, BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Runtime/OpenXRProjectValidation.cs:270)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs:70)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck() (at Library/PackageCache/com.unity.xr.openxr@1.6.0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.microsoft.mixedreality.openxr@d54292e2604a/Runtime/Subsystems/PluginEnvironment.cs Line: 38)
+
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.515 seconds
+- Completed reload, in  4.240 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1515ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (4242ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1341ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (3868ms)
+			LoadAssemblies (349ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (875ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (205ms)
+			SetupLoadedEditorAssemblies (2594ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (618ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (219ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (2025ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 123 unused Assets / (142.7 KB). Loaded Objects now: 6124.
-Memory consumption went from 222.5 MB to 222.4 MB.
-Total: 2.556500 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.102200 ms  DeleteObjects: 0.116100 ms)
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 8 plugins.
+Plugins: Couldn't open /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/apple/Desktop/VR AR/6998-Final-Project/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.28 ms.
+Unloading 7391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (0.8 MB). Loaded Objects now: 7839.
+Memory consumption went from 269.4 MB to 268.6 MB.
+Total: 8.152788 ms (FindLiveObjects: 0.576637 ms CreateObjectMapping: 0.545757 ms MarkObjects: 6.235422 ms  DeleteObjects: 0.793277 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009178 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.17 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1129ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (924ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (486ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.46 ms, found 22 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Unloading 5511 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 115 unused Assets / (108.0 KB). Loaded Objects now: 6126.
-Memory consumption went from 209.5 MB to 209.4 MB.
-Total: 3.581300 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.131800 ms MarkObjects: 2.958900 ms  DeleteObjects: 0.122600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 372632.076596 seconds.
+  path: Assets/Resources/SplitByLine_All_Lines_DICE_SurfElev/L50.csv
+  artifactKey: Guid(3642507de8af51a4ab93e072cfd3bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SplitByLine_All_Lines_DICE_SurfElev/L50.csv using Guid(3642507de8af51a4ab93e072cfd3bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8106c9bef742fe9e811c91a7c5b5a808') in 0.656976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.961274 seconds.
+  path: Assets/Resources/avatar.jpg
+  artifactKey: Guid(85a7c9130f550bd40a860f1834b0acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/avatar.jpg using Guid(85a7c9130f550bd40a860f1834b0acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f87617ffcdb8bcedfd5ef4d22a8ee8') in 2.546632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Resources/OVRBuildConfig.asset
+  artifactKey: Guid(b526e7f08e272b34eb73e49578607ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRBuildConfig.asset using Guid(b526e7f08e272b34eb73e49578607ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87d330dd591d669a1fcc4b9868596b1') in 1.292219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Resources/Radar Images/L550.png
+  artifactKey: Guid(668c4fd01883d514d9f1a0d38c2b30c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L550.png using Guid(668c4fd01883d514d9f1a0d38c2b30c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b223bb6f9b39cd6f014f5392a7c1c02d') in 0.270681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Resources/Radar Images/white.png
+  artifactKey: Guid(a2ab6684c840e9f49a5c291ec11a94fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/white.png using Guid(a2ab6684c840e9f49a5c291ec11a94fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de378d3b89c25fafe40e70b64a3e9f4') in 0.020024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Resources/Radar Images/L400.png
+  artifactKey: Guid(d70c429cb2bc0694eb70a260614d0b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L400.png using Guid(d70c429cb2bc0694eb70a260614d0b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18e52c7ca4f838a709cc613c9cb774b') in 0.029362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Resources/Radar Images/L820.png
+  artifactKey: Guid(5f814342210ed8c4ba74a5b1b4d1ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L820.png using Guid(5f814342210ed8c4ba74a5b1b4d1ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3be57361840dff4c53a2da9dd5ac2e2') in 0.032911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Resources/Radar Images/L840.png
+  artifactKey: Guid(415300a763beeaa429eaa6908be36a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L840.png using Guid(415300a763beeaa429eaa6908be36a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b9df64dca555dc6050b2baaa4ec5c9') in 0.036564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Resources/Radar Images/L540.png
+  artifactKey: Guid(f3d583b1d5eb0914f9878f182a7f872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L540.png using Guid(f3d583b1d5eb0914f9878f182a7f872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f2f6a43ee2e9837a847f8684e3721b') in 0.047007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Resources/Radar Images/L890.png
+  artifactKey: Guid(74940ea5af198d343835f5e4da3a1c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L890.png using Guid(74940ea5af198d343835f5e4da3a1c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1369e009de6a9837e3c73e9aa81951') in 0.053819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Resources/Radar Images/L870.png
+  artifactKey: Guid(f92abe442e1cbd24eb4c7985aebf2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L870.png using Guid(f92abe442e1cbd24eb4c7985aebf2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a624fe3780d53c721d5d58595ad6a534') in 0.029434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/Radar Images/L470.png
+  artifactKey: Guid(bc89ffb64ee79db41832d5bb04e15b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L470.png using Guid(bc89ffb64ee79db41832d5bb04e15b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdc015303a29d80c8ba1face48164e4') in 0.038430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002451 seconds.
+  path: Assets/Resources/Radar Images/L330.png
+  artifactKey: Guid(d7433d2360c360e4d807c8c8e8033bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L330.png using Guid(d7433d2360c360e4d807c8c8e8033bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538c8db584d5362416ec048ae9246f46') in 0.047597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Resources/Radar Images/L740.png
+  artifactKey: Guid(28f028de30b49e4428e93e8099588cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L740.png using Guid(28f028de30b49e4428e93e8099588cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f08631c10f4ee9ac04a6bd8b871d4d') in 0.046155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(d496df591d214704b89d8a2ad96dc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(d496df591d214704b89d8a2ad96dc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d26fdfc22c56fc04c7b60fd7987abae') in 0.009535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Radar Images/L380.png
+  artifactKey: Guid(cc97ff2c35e3e85418b8b97b52dea76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L380.png using Guid(cc97ff2c35e3e85418b8b97b52dea76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d91a6a5e56e1d907322caca40134d0d') in 0.041810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Resources/OculusPlatformSettings.asset
+  artifactKey: Guid(1d97c447b99d0db4bb7ea19142ea0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OculusPlatformSettings.asset using Guid(1d97c447b99d0db4bb7ea19142ea0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c62515560805ed34eeb2a5add888fe6') in 0.007372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Radar Images/L860.png
+  artifactKey: Guid(81eaad4939fa0f34885fc6a82b25bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L860.png using Guid(81eaad4939fa0f34885fc6a82b25bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f86dc101b5a3e2a369d7042c8fb9b6') in 0.045473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001950 seconds.
+  path: Assets/Resources/Radar Images/L600.png
+  artifactKey: Guid(16cb60990859f0b45abf01d28ce1e95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L600.png using Guid(16cb60990859f0b45abf01d28ce1e95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eb432ff907327b012033f5c2a1e48c') in 0.080456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005033 seconds.
+  path: Assets/Resources/Radar Images/L680.png
+  artifactKey: Guid(9b2f78879275f334f91326af328b48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L680.png using Guid(9b2f78879275f334f91326af328b48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc80ba0133c5d8374491772fabcbcef') in 0.040329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Resources/Radar Images/L310.png
+  artifactKey: Guid(4e685c5f1b27a70418e01a7e61d80d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L310.png using Guid(4e685c5f1b27a70418e01a7e61d80d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d6797010c0a111cf259917d7484b39') in 0.040451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Resources/Radar Images/L360.png
+  artifactKey: Guid(63a3636eab730e04aaa2be209bed624c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L360.png using Guid(63a3636eab730e04aaa2be209bed624c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241ea63ba5d5aa526597b06cd64dc354') in 0.041395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/Radar Images/L810.png
+  artifactKey: Guid(5d2d896dc487ecb46807ffc511632c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L810.png using Guid(5d2d896dc487ecb46807ffc511632c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3345e3f2cc21793906199a52dc78803') in 0.031079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Resources/Radar Images/L790.png
+  artifactKey: Guid(d57d39c515033544685ee89d48242122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L790.png using Guid(d57d39c515033544685ee89d48242122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0eaf4a4bc229c7c433614b80510edf') in 0.027809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Resources/Radar Images/L630.png
+  artifactKey: Guid(d8b2d998c1cf66c45b4ed528e5952a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L630.png using Guid(d8b2d998c1cf66c45b4ed528e5952a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfdf320808002995b1a4667e93361e7') in 0.031326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Resources/Radar Images/L370.png
+  artifactKey: Guid(6de09ceaf068e5a41b2e9c17c2560fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L370.png using Guid(6de09ceaf068e5a41b2e9c17c2560fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516a6dbaba9614ac481aad7fa3c6db5b') in 0.047406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Resources/Radar Images/L660.png
+  artifactKey: Guid(06c511696a07c774b956cb11061df272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L660.png using Guid(06c511696a07c774b956cb11061df272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793c63bee6dd753f78243dd9ac5aeec6') in 0.034266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Radar Images/L850.png
+  artifactKey: Guid(d72761722a9328f46b5a13f717aeef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L850.png using Guid(d72761722a9328f46b5a13f717aeef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167013db3cb78fd40237d765c982f004') in 0.035774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Resources/Radar Images/L350.png
+  artifactKey: Guid(64604a7dcd3008b4dad33256c5d616b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L350.png using Guid(64604a7dcd3008b4dad33256c5d616b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041b40fefcc56c9e0cadaecd094951c8') in 0.061073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Radar Images/L520.png
+  artifactKey: Guid(b317f4fcf9af5b949a38fbd6b459db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L520.png using Guid(b317f4fcf9af5b949a38fbd6b459db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059090887f271af722605bbeae2ff30a') in 0.041578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Resources/OculusRuntimeSettings.asset
+  artifactKey: Guid(e1f21c0b74af1fa42be7940db5bc319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OculusRuntimeSettings.asset using Guid(e1f21c0b74af1fa42be7940db5bc319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03c9387154881c0e8387ecf0d66d75') in 0.006125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Resources/Minimap Render Texture.renderTexture
+  artifactKey: Guid(696b9a3f8ccb4e542804b513b300ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Minimap Render Texture.renderTexture using Guid(696b9a3f8ccb4e542804b513b300ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8091d8142cd77d5f9c5206988873ed') in 0.236245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/Radar Images/L460.png
+  artifactKey: Guid(7b915d9109fc87a458a9d2965d0365c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L460.png using Guid(7b915d9109fc87a458a9d2965d0365c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b12428c37f8ab38c3ad60fd2b15d836') in 0.034376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Resources/Radar Images/L570.png
+  artifactKey: Guid(8a8a72708f18d2a46a8ebf4acb88fa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L570.png using Guid(8a8a72708f18d2a46a8ebf4acb88fa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed8ef715e287b67b97f403004ff9c66') in 0.038259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Resources/Radar Images/L840 full.png
+  artifactKey: Guid(22a25f027ad896c42972672458aa31b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L840 full.png using Guid(22a25f027ad896c42972672458aa31b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0adfca97427a6b50502d4de9bf2f01a') in 0.026101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002674 seconds.
+  path: Assets/Resources/Radar Images/L880.png
+  artifactKey: Guid(b4ef9e98d9711694d9209b868e003949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L880.png using Guid(b4ef9e98d9711694d9209b868e003949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb582cb4984ae5d8c4d6151d8ea1e6da') in 0.102795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/Radar Images/L450.png
+  artifactKey: Guid(a49babd63c8ab8d46890ff81f13cfe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L450.png using Guid(a49babd63c8ab8d46890ff81f13cfe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2271dcbfabccc44fbae61de634a72ada') in 0.033623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Resources/Radar Images/L290.png
+  artifactKey: Guid(a14313adf81d2e54a8efc948938ef201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L290.png using Guid(a14313adf81d2e54a8efc948938ef201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8539f600cf03226a3494f1ca9a630843') in 0.037496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Resources/Radar Images/L830.png
+  artifactKey: Guid(b6340ddb5e7d1cb4b9e011cceb19f2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L830.png using Guid(b6340ddb5e7d1cb4b9e011cceb19f2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdd8521ca6816076c702cdbbdf2e801') in 0.040783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Resources/Radar Images/BedMachine_v5_Pete_extent_1km_BedMachine_v5_Pete_extent_1km_Material.001Mat.mat
+  artifactKey: Guid(cc8bd04f8bb6b2143909813caaa8efc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/BedMachine_v5_Pete_extent_1km_BedMachine_v5_Pete_extent_1km_Material.001Mat.mat using Guid(cc8bd04f8bb6b2143909813caaa8efc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b645212957908e5692a0bea9b91630f') in 0.351401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Resources/Radar3D/FlightLines/FlightLine_20100324_01.obj
+  artifactKey: Guid(f5873cd5969e7ae45b24e0a8e8177853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar3D/FlightLines/FlightLine_20100324_01.obj using Guid(f5873cd5969e7ae45b24e0a8e8177853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cd951e1a0cfd3bfd7125161a0f8abc') in 1.295421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Resources/Radar3D/FlightLines
+  artifactKey: Guid(a9403ebd53f55de4a8448e99b6d4f12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar3D/FlightLines using Guid(a9403ebd53f55de4a8448e99b6d4f12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a744700b90fa6ead8aec933dedc4f578') in 0.002732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Resources/Radar Images/L530.png
+  artifactKey: Guid(576a3b6576b15574da0641fc8cbacac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L530.png using Guid(576a3b6576b15574da0641fc8cbacac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f44d231942fa0827ddecc42a41955e2') in 0.034852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Resources/Radar Images/L870 full.png
+  artifactKey: Guid(77782639f4cca5e4c8564021cd7645c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Radar Images/L870 full.png using Guid(77782639f4cca5e4c8564021cd7645c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2f8997fb44a64c0706094dae3333f8') in 0.028747 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
