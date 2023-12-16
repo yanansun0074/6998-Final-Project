@@ -62,3 +62,6 @@ MonoBehaviour:
   - id: 16
     description: MoveUpAndDown
     axisConstraint: 4
+  - id: 17
+    description: MiniatureMenu
+    axisConstraint: 2

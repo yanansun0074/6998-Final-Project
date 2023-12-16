@@ -2,12 +2,14 @@ using Microsoft.MixedReality.Toolkit;
 using Microsoft.MixedReality.Toolkit.Input;
 using Microsoft.MixedReality.Toolkit.Utilities;
 using UnityEngine;
-
+namespace Sigtrap.VrTunnellingPro{
 
 public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInputHandler<Vector2>
 {
     public MixedRealityInputAction moveAction;
     public float multiplier = 5f;
+    private Camera mainCamera;
+    public GameObject player;
 
     private Vector3 delta = Vector3.zero;
     public void OnInputChanged(InputEventData<Vector2> eventData)
@@ -21,12 +23,27 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         }
     }
 
-    public void Update()
+    void Start()
+    {
+        // Set camera for tunneling effect
+        mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
+        // Attach script
+        Tunnelling cam_tun = mainCamera.gameObject.AddComponent<Tunnelling>();
+        // Set camera as child of Player
+        GameObject player = GameObject.Find("Player");
+        player.transform.position = mainCamera.transform.position;
+        mainCamera.transform.SetParent(player.transform);
+        mainCamera.gameObject.GetComponent<Tunnelling>().motionTarget = player.transform;
+
+    }
+
+    void Update()
     {
         if (delta.sqrMagnitude > 0.01f)
         {
             MixedRealityPlayspace.Transform.Translate(delta);
         }
+        player.transform.position = mainCamera.gameObject.transform.position;
     }
 
     protected override void RegisterHandlers()
@@ -38,4 +55,5 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
     {
         CoreServices.InputSystem.UnregisterHandler<MoveUpAndDown>(this);
     }
+}
 }
