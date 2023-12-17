@@ -90,6 +90,7 @@ public class MenuEvents : MonoBehaviour
     // Deals with muting/unmuting sounds
     public AudioSource audioSource;
 
+
     void Start()
     {
         // Deactivate the radar menu before any selection happens; deactivate the bounding box.

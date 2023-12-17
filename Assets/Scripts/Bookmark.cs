@@ -23,4 +23,14 @@ public class Bookmark : MonoBehaviour
         return position;
 
     }
+
+    public void SetPosition(Vector3 position)
+    {
+        this.position = position;
+    }
+
+    public void SetName(string name)
+    {
+        this.markName = name;
+    }
 }
