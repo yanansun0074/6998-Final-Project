@@ -335,7 +335,7 @@ namespace Microsoft.MixedReality.Toolkit.Experimental.UI
         {
             base.OnDisable();
             m_LastKeyboardLayout = LayoutType.Alpha;
-            Clear();
+            // Clear();
         }
 
 

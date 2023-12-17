@@ -61,7 +61,7 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         // mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         Menu.SetActive(false);
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
-
+        mainCamera.gameObject.AddComponent<MixedRealityInputModule>();
         // Menu.transform.position = Vector3.Lerp(Menu.transform.position, Camera.main.transform.position, 0.5f);
     }
 

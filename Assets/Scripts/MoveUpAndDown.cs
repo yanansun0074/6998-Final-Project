@@ -9,7 +9,7 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
     public MixedRealityInputAction moveAction;
     public float multiplier = 5f;
     private Camera mainCamera;
-    public GameObject player;
+    private GameObject player;
 
     private Vector3 delta = Vector3.zero;
     public void OnInputChanged(InputEventData<Vector2> eventData)
