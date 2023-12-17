@@ -23,6 +23,15 @@ public class BookmarkManager : MonoBehaviour
     public GameObject bmPanel;
     // how Bookmark current position
     public TextMeshPro positionText;
+
+    // bookmark scrollview buttons
+    [SerializeField]
+    public GameObject bmButton_prefab;
+    // bookmark list view
+    [SerializeField]
+    public GameObject selectables;
+    // bookmark scrollview
+    public GameObject scrollview;
     
 
 
@@ -33,11 +42,16 @@ public class BookmarkManager : MonoBehaviour
         bookmarkCollection.SetActive(false);
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         bmPanel.SetActive(false);
-        // hard-coded List
-        // Bookmark top_bookmark = new Bookmark("top view", new Vector3(6.3f, 31f, 7.4f));
+
+        // initialize list
         bookmarkList =  new List<Bookmark>(GetComponentsInChildren<Bookmark>());
-        // bookmarkList.Add(top_bookmark);
-        // Title.text = bookmarkList[0].GetPosition().ToString();
+        // By default add top view
+        Bookmark top_bookmark = new Bookmark("top view", new Vector3(6.3f, 31f, 7.4f));
+        bookmarkList.Add(top_bookmark);
+        
+        // Initialize bookmar scrollview
+        scrollview.SetActive(false);
+        PopulateList();
 
     }
 
@@ -51,8 +65,16 @@ public class BookmarkManager : MonoBehaviour
     public void ToggleShow()
     {
         showBookmarks = !showBookmarks;
-        if (showBookmarks) {bookmarkCollection.SetActive(true);}
-        else { bookmarkCollection.SetActive(false);}
+        if (showBookmarks) 
+        {
+            bookmarkCollection.SetActive(true);
+            scrollview.SetActive(true);
+            
+        }
+        else { 
+            bookmarkCollection.SetActive(false);
+            scrollview.SetActive(false);
+        }
     }
 
     // teleport to selected bookmark
@@ -78,13 +100,38 @@ public class BookmarkManager : MonoBehaviour
     {
         if (bm_prefab)
         {
+            // Create bookmark and translate its position
             GameObject newBookmark = Instantiate (bm_prefab, mainCamera.gameObject.transform.position, Quaternion.identity);
             newBookmark.transform.SetParent(BookmarkParent);
-            newBookmark.GetComponent<Bookmark>().SetPosition(mainCamera.gameObject.transform.position);
-            bookmarkList.Add(newBookmark.GetComponent<Bookmark>());
+            Bookmark bm = newBookmark.GetComponent<Bookmark>();
+            bm.SetPosition(mainCamera.gameObject.transform.position);
+            
+            // Add to list
+            bookmarkList.Add(bm);
+
+            // Add to scrollview
+            GameObject created_btn = (GameObject) Instantiate(bmButton_prefab, selectables.transform);            
+            // Change text of button
+            if (bm.GetName()!=null) {created_btn.GetComponentInChildren<TextMeshProUGUI>().text = bm.GetName();}
+            else {created_btn.GetComponentInChildren<TextMeshProUGUI>().text = "New Bookmark";}
+
+            // Close addBookmark panel after finished
             bmPanel.SetActive(false);
 
         }
 
+    }
+
+    public void PopulateList()
+    {
+        foreach (Bookmark bm in bookmarkList)
+        {
+            // Create button
+            GameObject created_btn = (GameObject) Instantiate(bmButton_prefab, selectables.transform);
+            
+            // Change text of button
+            // TextMeshProUGUI btn_txt = created_btn.GetComponentInChildren<TextMeshProUGUI>();
+            created_btn.GetComponentInChildren<TextMeshProUGUI>().text = bm.GetName();
+        }
     }
 }

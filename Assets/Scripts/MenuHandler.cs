@@ -39,6 +39,8 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
 
     private Camera mainCamera;
 
+    // Player map pointer
+    public GameObject playerMPointer;
 
 
     // if button is pressed -- menuAction_button
@@ -46,6 +48,7 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     {
         if (eventData.MixedRealityInputAction == menuAction_button)
         {
+            
             menuOn = true;
             updatePosition();
         }    
@@ -60,8 +63,10 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     {
         // mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         Menu.SetActive(false);
+        playerMPointer.SetActive(false);
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         mainCamera.gameObject.AddComponent<MixedRealityInputModule>();
+
         // Menu.transform.position = Vector3.Lerp(Menu.transform.position, Camera.main.transform.position, 0.5f);
     }
 
@@ -71,8 +76,14 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         if (menuOn)
         {
             Menu.SetActive(true);
+            playerMPointer.SetActive(true);
+
         }
-        else{Menu.SetActive(false);}
+        else
+        {
+            Menu.SetActive(false);
+            playerMPointer.SetActive(false);
+}
     }
 
     void updatePosition()
@@ -94,7 +105,7 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         CoreServices.InputSystem.UnregisterHandler<MenuHandler>(this);
     }
 
-    // The close button, make the menu disappear and deactivated.
+    // Close button: close menu
     public void CloseButton(bool shutDown)
     {
         if (shutDown)
@@ -102,6 +113,12 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
             Menu.SetActive(false);
             menuOn = false;
         }
+    }
+
+    // Reset Button: reset scene
+    public void ResetScene()
+    {
+        SceneManager.LoadScene("greenland");
     }
 
 }
