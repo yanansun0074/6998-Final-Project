@@ -33,7 +33,7 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         GameObject player = GameObject.Find("Player");
         player.transform.position = mainCamera.transform.position;
         mainCamera.transform.SetParent(player.transform);
-        mainCamera.gameObject.GetComponent<Tunnelling>().motionTarget = player.transform;
+        mainCamera.gameObject.GetComponent<Tunnelling>().motionTarget = mainCamera.gameObject.transform;
 
     }
 
@@ -43,7 +43,7 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         {
             MixedRealityPlayspace.Transform.Translate(delta);
         }
-        player.transform.position = mainCamera.gameObject.transform.position;
+        // player.transform.position = mainCamera.gameObject.transform.position;
     }
 
     protected override void RegisterHandlers()

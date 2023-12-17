@@ -13,22 +13,26 @@ public class BookmarkManager : MonoBehaviour
 
     public GameObject player;
     public TextMeshPro Title;
+    public GameObject bookmarkCollection;
 
     // Bookmark pin 3D prefab
     public GameObject bm_prefab;
     // Set parent
     public Transform BookmarkParent;
-    // Add bookmark UI: show Bookmark current position
+    // Add bookmark UI
+    public GameObject bmPanel;
+    // how Bookmark current position
     public TextMeshPro positionText;
+    
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        this.gameObject.SetActive(false);
+        bookmarkCollection.SetActive(false);
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
-        
+        bmPanel.SetActive(false);
         // hard-coded List
         // Bookmark top_bookmark = new Bookmark("top view", new Vector3(6.3f, 31f, 7.4f));
         bookmarkList =  new List<Bookmark>(GetComponentsInChildren<Bookmark>());
@@ -40,15 +44,15 @@ public class BookmarkManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        positionText.text = player.transform.position.ToString();
+        positionText.text = mainCamera.gameObject.transform.position.ToString();
     }
 
     // Show all existing bookmarks or not
     public void ToggleShow()
     {
         showBookmarks = !showBookmarks;
-        if (showBookmarks) {this.gameObject.SetActive(true);}
-        else { this.gameObject.SetActive(false);}
+        if (showBookmarks) {bookmarkCollection.SetActive(true);}
+        else { bookmarkCollection.SetActive(false);}
     }
 
     // teleport to selected bookmark
@@ -74,10 +78,13 @@ public class BookmarkManager : MonoBehaviour
     {
         if (bm_prefab)
         {
-            GameObject newBookmark = Instantiate (bm_prefab, player.transform.position, Quaternion.identity);
+            GameObject newBookmark = Instantiate (bm_prefab, mainCamera.gameObject.transform.position, Quaternion.identity);
             newBookmark.transform.SetParent(BookmarkParent);
-            newBookmark.GetComponent<Bookmark>().SetPosition(player.transform.position);
+            newBookmark.GetComponent<Bookmark>().SetPosition(mainCamera.gameObject.transform.position);
             bookmarkList.Add(newBookmark.GetComponent<Bookmark>());
+            bmPanel.SetActive(false);
+
         }
+
     }
 }

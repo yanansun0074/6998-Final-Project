@@ -6,11 +6,11 @@ using Microsoft.MixedReality.Toolkit.Experimental.UI;
 
 public class ShowKeyboard : MonoBehaviour
 {
-    private TMP_InputField inputField;
+    private MRTKTMPInputField inputField;
     // Start is called before the first frame update
     void Start()
     {
-        inputField = GetComponent<TMP_InputField>();
+        inputField = GetComponent<MRTKTMPInputField>();
         inputField.onSelect.AddListener(x => OpenKeyboard());
     }
 
