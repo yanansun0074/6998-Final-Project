@@ -5504,6 +5504,7 @@ m_ResolvedPackages:
     - 5.1.1
     - 6.0.0-pre.3
     - 6.0.0-pre.4
+    - 6.0.0-pre.5
     compatible:
     - 4.2.6
     - 4.2.7

@@ -171,5 +171,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities
                 isInstanceRunning = true;
             }
         }
+
+
     }
 }

@@ -77,8 +77,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dc672384cde4808a6852156393ab0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markName: Top View
-  position: {x: 6.3, y: 31.1, z: 7.4}
+  markName: 
+  position: {x: 0, y: 0, z: 0}
+  markPin: {fileID: 0}
+  selected: 0
 --- !u!1 &6525740516139700228
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6734774963500993175}
   m_LocalRotation: {x: -0.70710456, y: -0.0017532402, z: -0.0017532402, w: 0.7071046}
-  m_LocalPosition: {x: -0.00056279264, y: 3.0307007e-13, z: -0.0000014479579}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children:

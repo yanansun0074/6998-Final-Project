@@ -34,8 +34,12 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     // The data needed for smoothing the menu movement.
     private Vector3 targetPosition;
 
-    // bool to turn on/off menu
+    // bool to turn on/off menu, radar, and surface
     private bool menuOn = false;
+    private bool radarOn = true;
+    private bool surfaceOn = true;
+    public GameObject radar;
+    public GameObject surface;
 
     private Camera mainCamera;
 
@@ -76,13 +80,13 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         if (menuOn)
         {
             Menu.SetActive(true);
-            playerMPointer.SetActive(true);
+            // playerMPointer.SetActive(true);
 
         }
         else
         {
             Menu.SetActive(false);
-            playerMPointer.SetActive(false);
+            // playerMPointer.SetActive(false);
 }
     }
 
@@ -112,13 +116,27 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         {
             Menu.SetActive(false);
             menuOn = false;
+            Title.text = "Miniature Map";
         }
     }
 
     // Reset Button: reset scene
     public void ResetScene()
     {
-        SceneManager.LoadScene("greenland");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);    
+    }
+
+    // Find the dem according to name.
+    public void ToggleRadar()
+    {
+        radarOn = !radarOn;
+        radar.SetActive(radarOn);
+    }
+
+    public void ToggleSurface()
+    {
+        surfaceOn = !surfaceOn;
+        surface.SetActive(surfaceOn);
     }
 
 }

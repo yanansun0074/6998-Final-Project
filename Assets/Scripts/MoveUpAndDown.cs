@@ -31,9 +31,11 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         Tunnelling cam_tun = mainCamera.gameObject.AddComponent<Tunnelling>();
         // Set camera as child of Player
         GameObject player = GameObject.Find("Player");
+        GameObject cam = GameObject.Find("Main Camera");
+        // Destroy(cam);
         player.transform.position = mainCamera.transform.position;
         mainCamera.transform.SetParent(player.transform);
-        mainCamera.gameObject.GetComponent<Tunnelling>().motionTarget = mainCamera.gameObject.transform;
+        mainCamera.gameObject.GetComponent<Tunnelling>().motionTarget = player.gameObject.transform;
 
     }
 
