@@ -38,13 +38,13 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     private bool menuOn = false;
     private bool radarOn = true;
     private bool surfaceOn = true;
+    private bool compassOn = false;
     public GameObject radar;
     public GameObject surface;
+    public GameObject compass;
 
     private Camera mainCamera;
 
-    // Player map pointer
-    public GameObject playerMPointer;
 
 
     // if button is pressed -- menuAction_button
@@ -67,7 +67,6 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     {
         // mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         Menu.SetActive(false);
-        playerMPointer.SetActive(false);
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         mainCamera.gameObject.AddComponent<MixedRealityInputModule>();
 
@@ -80,13 +79,11 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         if (menuOn)
         {
             Menu.SetActive(true);
-            // playerMPointer.SetActive(true);
 
         }
         else
         {
             Menu.SetActive(false);
-            // playerMPointer.SetActive(false);
 }
     }
 
@@ -137,6 +134,12 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     {
         surfaceOn = !surfaceOn;
         surface.SetActive(surfaceOn);
+    }
+
+    public void ToggleCompass()
+    {
+        compassOn = !compassOn;
+        compass.SetActive(compassOn);
     }
 
 }

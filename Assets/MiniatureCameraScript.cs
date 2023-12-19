@@ -15,6 +15,6 @@ public class MiniatureCameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Player.position;
+        transform.position = new Vector3(Player.position[0], 25, Player.position[2]);
     }
 }
