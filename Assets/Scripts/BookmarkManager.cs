@@ -38,6 +38,12 @@ public class BookmarkManager : MonoBehaviour
     // for GridObject update
     private IEnumerator coroutine;
 
+    public GameObject miniatureCam;
+
+    public bool past_dirty;
+
+    public Quaternion bmRotate;
+
     
 
 
@@ -55,15 +61,13 @@ public class BookmarkManager : MonoBehaviour
         // initialize list from Bookmark Collection
         bookmarkList =  new List<Bookmark>(bookmarkCollection.GetComponentsInChildren<Bookmark>());
         
-        // By default add top view
-        // Bookmark top_bookmark = new Bookmark("top view", new Vector3(6.3f, 31f, 7.4f));
-        // bookmarkList.Add(top_bookmark);
-        
         // Initialize bookmar scrollview
         coroutine = InvokeUpdateCollection();
         StartCoroutine(coroutine);
 
         PopulateList();
+
+        past_dirty = true;
 
     }
 
@@ -73,18 +77,41 @@ public class BookmarkManager : MonoBehaviour
         positionText.text = mainCamera.gameObject.transform.position.ToString();
 
         // if currentbookmark changed
-        if (currentBookmark != pastBookmark && currentBookmark != "")
+        if (past_dirty)
         {
-            Title.text = currentBookmark + " is selected";
-            if (pastBookmark != "")
+            if (!currentBookmark.Equals(pastBookmark))
             {
-                GameObject.Find(pastBookmark).GetComponent<Bookmark>().selected = false;
+                CleanBookmark();
             }
-            GameObject.Find(currentBookmark).GetComponent<Bookmark>().selected = true;
-            pastBookmark = currentBookmark;
+            past_dirty = false;
+
         }
 
-        // InvokeUpdateCollection();
+
+    }
+
+    public void CleanBookmark()
+    {
+        foreach (Bookmark bm in bookmarkList)
+        {
+            if (bm.GetName().Equals(currentBookmark))
+            {
+                bm.selected = true;
+            }
+            else {bm.selected = false;}
+        }
+        pastBookmark = currentBookmark;
+    }
+
+    public void CleanPastBookmark()
+    {
+        if (pastBookmark != "")
+        {
+            GameObject.Find(pastBookmark).GetComponent<Bookmark>().selected = false;
+
+        } 
+        pastBookmark = currentBookmark;
+        past_dirty = false;
 
     }
 
@@ -96,11 +123,13 @@ public class BookmarkManager : MonoBehaviour
         {
             bookmarkCollection.SetActive(true);
             scrollview.SetActive(true);
+            miniatureCam.GetComponent<MiniatureCameraScript>().overview = true;
             
         }
         else { 
             bookmarkCollection.SetActive(false);
             scrollview.SetActive(false);
+            miniatureCam.GetComponent<MiniatureCameraScript>().overview = false;
             Title.text = "Miniature Map";
         }
     }
@@ -146,7 +175,10 @@ public class BookmarkManager : MonoBehaviour
         if (bm_prefab)
         {
             // Create bookmark
-            GameObject newBookmark = Instantiate (bm_prefab, mainCamera.gameObject.transform.position, Quaternion.identity);
+            Vector3 camPos = mainCamera.gameObject.transform.position;
+            // map [-20,20] to [0,20]
+            float height =  0.5f * camPos[1] + 10;
+            GameObject newBookmark = Instantiate (bm_prefab, new Vector3(camPos[0], height, camPos[2]), bmRotate);
             newBookmark.transform.SetParent(BookmarkParent);
             Bookmark bm = newBookmark.GetComponent<Bookmark>();
             // Set bookmark.name = position
@@ -181,6 +213,7 @@ public class BookmarkManager : MonoBehaviour
     {
         foreach (Bookmark bm in bookmarkList)
         {
+            bmRotate = bm.transform.rotation;
             // Create button
             GameObject created_btn = (GameObject) Instantiate(bmButton_prefab, selectables.transform);
             

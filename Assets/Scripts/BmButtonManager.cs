@@ -22,6 +22,7 @@ public class BmButtonManager : MonoBehaviour
     {
         // bManager.currentBookmark = this.GetComponentInChildren<TextMeshProUGUI>().text;
         bManager.currentBookmark = this.transform.Find("IconAndText").GetComponentInChildren<TMP_Text>().text;
+        bManager.past_dirty = true;
         // this.GetComponentInChildren<TextMeshProUGUI>().text = "selected";
         // this.transform.Find("IconAndText").GetComponentInChildren<TMP_Text>().text = "selected";
 
