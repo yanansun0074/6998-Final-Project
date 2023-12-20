@@ -14,15 +14,16 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
 
     private Vector3 delta = Vector3.zero;
 
-    // Main Camera
+    // VR Camera
     protected GameObject cam;
+
     public void OnInputChanged(InputEventData<Vector2> eventData)
     {
         float horiz = eventData.InputData.x;
         float vert = eventData.InputData.y;
         if (eventData.MixedRealityInputAction == moveAction)
         {
-            // delta = CameraCache.Main.transform.TransformDirection(new Vector3(horiz, 0, vert) * multiplier);
+            // delta = player.transform.TransformDirection(new Vector3(horiz, 0, vert) * multiplier);
             delta = CameraCache.Main.transform.TransformDirection(new Vector3(0, horiz, 0) * multiplier);
         }
     }
@@ -32,8 +33,9 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         // Set camera for tunneling effect
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         mainCamera.gameObject.SetActive(true);
+        mainCamera.gameObject.transform.position = new Vector3(0,0,0);
         // Attach script
-        // Tunnelling cam_tun = mainCamera.gameObject.AddComponent<Tunnelling>();
+        Tunnelling cam_tun = mainCamera.gameObject.AddComponent<Tunnelling>();
         // Set camera as child of Player
         GameObject player = GameObject.Find("Player");
         
@@ -45,13 +47,11 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         // mainCamera.GetComponent<Camera>().enabled = true;
         // mainCamera.tag = "MainCamera";
 
-        player.transform.position = mainCamera.transform.position;
+        // player.transform.position = mainCamera.transform.position;
         mainCamera.transform.SetParent(player.transform);
+        player.transform.position = new Vector3(0,1.5f,0);
         mainCamera.GetComponent<Camera>().enabled = true;
         mainCamera.gameObject.GetComponent<Tunnelling>().motionTarget = player.gameObject.transform;
-
-        // player.transform.position = cam.transform.position;
-
 
     }
 
@@ -60,9 +60,7 @@ public class MoveUpAndDown : InputSystemGlobalHandlerListener, IMixedRealityInpu
         if (delta.sqrMagnitude > 0.01f)
         {
             MixedRealityPlayspace.Transform.Translate(delta);
-            // player.transform.Translate(delta);
         }
-        // player.transform.position = mainCamera.gameObject.transform.position;
     }
 
     protected override void RegisterHandlers()

@@ -8,8 +8,14 @@ public class Bookmark : MonoBehaviour
     public Vector3 position;
     public GameObject markPin;
     public bool selected;
+    // Miniature pointer
     public GameObject planeNormal;
     public GameObject planeHighlighted; 
+    // World pointer
+    public GameObject plane2Normal;
+    public GameObject plane2Highlighted; 
+
+    protected Vector3 miniaturePos;
     
 
 
@@ -24,7 +30,7 @@ public class Bookmark : MonoBehaviour
     void Start()
     {
         selected = false;
-        ChangeAlpha();
+        // ChangeAlpha();
     }
     public string GetName()
     {
@@ -41,6 +47,15 @@ public class Bookmark : MonoBehaviour
     public void SetPosition(Vector3 position)
     {
         this.position = position;
+        // if below the surface, set the miniature map above the ground
+        if (position[1] <0) {miniaturePos = new Vector3(position[0], -position[1], position[2]);}
+        else {miniaturePos = position;}
+        planeNormal.transform.position = miniaturePos;
+        planeHighlighted.transform.position = miniaturePos;
+
+        // set the world map coordinate
+        plane2Normal.transform.position = position;
+        plane2Highlighted.transform.position = position;
     }
 
     public void SetName(string name)
@@ -61,7 +76,7 @@ public class Bookmark : MonoBehaviour
         // float Alpha = 0.7f/20 * position[2] + 0.3f;
         // Color color = newMaterial.color;
         Material newMaterial = new Material(Shader.Find("Lit"));
-        newMaterial.SetColor("_color", new Color(0.1f, 0.1f, 0.9f, 0.4f));
+        newMaterial.SetColor("_color", new Color(0.1f, 0.9f, 0.1f, 0.4f));
         planeNormal.GetComponent<Renderer>().material = newMaterial;
         // plane.GetComponent<Renderer>().materials[0] = null;
         // Plane.GetComponent<Renderer>().material.SetColor("_color", new Color(color[0], color[1], color[2], Alpha));
@@ -69,17 +84,20 @@ public class Bookmark : MonoBehaviour
 
     void Update()
     {   
+        // Change different color based on whether selected
         if (selected)
         {
             planeHighlighted.SetActive(true);
             planeNormal.SetActive(false);
-            // markPin.gameObject.transform.localScale += new Vector3(2,2,2);
+            plane2Highlighted.SetActive(true);
+            plane2Normal.SetActive(false);
         }
         else 
         {
             planeHighlighted.SetActive(false);
             planeNormal.SetActive(true);
-            // markPin.gameObject.transform.localScale = new Vector3(1,1,1);
+            plane2Highlighted.SetActive(false);
+            plane2Normal.SetActive(true);
         }
         
     }

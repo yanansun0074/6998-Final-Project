@@ -17,6 +17,6 @@ public class MiniatureCameraScript : MonoBehaviour
     void Update()
     {
         if (!overview) {transform.position = new Vector3(Player.position[0], 15, Player.position[2]);}
-        else {transform.position = new Vector3(5.98f, 30, 6.57f);}
+        else {transform.position = new Vector3(5.98f, 25, 6.57f);}
     }
 }

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638386091130000000
+      ticks: 638386490100000000
     m_Hash: 3472458992
   m_LockFileStatus:
     m_FilePath: /Users/apple/Desktop/VR AR/6998-Final-Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638386091160000000
+      ticks: 638386490100000000
     m_Hash: 29721558
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

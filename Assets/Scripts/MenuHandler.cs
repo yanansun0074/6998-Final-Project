@@ -65,12 +65,10 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     // Start is called before the first frame update
     void Start()
     {
-        // mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         Menu.SetActive(false);
         mainCamera = GameObject.Find("UIRaycastCamera").GetComponent<Camera>();
         mainCamera.gameObject.AddComponent<MixedRealityInputModule>();
 
-        // Menu.transform.position = Vector3.Lerp(Menu.transform.position, Camera.main.transform.position, 0.5f);
     }
 
     // Update is called once per frame
@@ -79,7 +77,6 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         if (menuOn)
         {
             Menu.SetActive(true);
-
         }
         else
         {
@@ -91,7 +88,6 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
     {
         
         Menu.transform.position = new Vector3(mainCamera.transform.position[0]+0.2f, mainCamera.transform.position[1], mainCamera.transform.position[2]+0.2f);
-        // Menu.transform.rotation = Quaternion.Lerp(Menu.transform.rotation, mainCamera.transform.rotation, 0.02f);
         Menu.transform.rotation = mainCamera.transform.rotation;
 
     }
@@ -123,19 +119,21 @@ public class MenuHandler : InputSystemGlobalHandlerListener, IMixedRealityInputH
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);    
     }
 
-    // Find the dem according to name.
+    // Radar Toggle
     public void ToggleRadar()
     {
         radarOn = !radarOn;
         radar.SetActive(radarOn);
     }
 
+    // Surface Toggle
     public void ToggleSurface()
     {
         surfaceOn = !surfaceOn;
         surface.SetActive(surfaceOn);
     }
 
+    // Compass Toggle
     public void ToggleCompass()
     {
         compassOn = !compassOn;

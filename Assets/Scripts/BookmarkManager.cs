@@ -42,7 +42,7 @@ public class BookmarkManager : MonoBehaviour
 
     public bool past_dirty;
 
-    public Quaternion bmRotate;
+    // public Quaternion bmRotate;
 
     
 
@@ -103,17 +103,6 @@ public class BookmarkManager : MonoBehaviour
         pastBookmark = currentBookmark;
     }
 
-    public void CleanPastBookmark()
-    {
-        if (pastBookmark != "")
-        {
-            GameObject.Find(pastBookmark).GetComponent<Bookmark>().selected = false;
-
-        } 
-        pastBookmark = currentBookmark;
-        past_dirty = false;
-
-    }
 
     // Show all existing bookmarks or not
     public void ToggleShow()
@@ -146,7 +135,6 @@ public class BookmarkManager : MonoBehaviour
                 {
                     player.transform.position = bm.GetPosition();
                     Title.text = "Miniature Map";
-                    // Title.text = "Go to selected bookmark! " + bm.GetPosition().ToString();
                     break;
                 }
             }
@@ -176,9 +164,8 @@ public class BookmarkManager : MonoBehaviour
         {
             // Create bookmark
             Vector3 camPos = mainCamera.gameObject.transform.position;
-            // map [-20,20] to [0,20]
-            float height =  0.5f * camPos[1] + 10;
-            GameObject newBookmark = Instantiate (bm_prefab, new Vector3(camPos[0], height, camPos[2]), bmRotate);
+            
+            GameObject newBookmark = Instantiate (bm_prefab, new Vector3(0,0,0), Quaternion.identity);
             newBookmark.transform.SetParent(BookmarkParent);
             Bookmark bm = newBookmark.GetComponent<Bookmark>();
             // Set bookmark.name = position
@@ -196,7 +183,6 @@ public class BookmarkManager : MonoBehaviour
             GameObject created_btn = (GameObject) Instantiate(bmButton_prefab, selectables.transform); 
             // StartCoroutine(coroutine);
             selectables.GetComponent<GridObjectCollection>().UpdateCollection();
-
           
             // Change name of button
             created_btn.transform.Find("IconAndText").GetComponentInChildren<TMP_Text>().text = bm.GetName();
@@ -209,32 +195,27 @@ public class BookmarkManager : MonoBehaviour
 
     }
 
+    // When initialized, update grid view
     public void PopulateList()
     {
         foreach (Bookmark bm in bookmarkList)
         {
-            bmRotate = bm.transform.rotation;
             // Create button
             GameObject created_btn = (GameObject) Instantiate(bmButton_prefab, selectables.transform);
             
             // Change text of button
-            // TextMeshProUGUI btn_txt = created_btn.GetComponentInChildren<TextMeshProUGUI>();
             if (bm.GetName() != null)
             {
-                // created_btn.GetComponentInChildren<TextMeshProUGUI>().text = bm.GetName();
-                Debug.Log("Added " + bm.GetName());
+                // Debug.Log("Added " + bm.GetName());
                 created_btn.transform.Find("IconAndText").GetComponentInChildren<TMP_Text>().text = bm.GetName();
 
             }
             else {
-                Debug.Log("Added default position as name");
-                // created_btn.GetComponentInChildren<TextMeshProUGUI>().text = bm.GetPosition().ToString();
+                // Debug.Log("Added default position as name");
                 created_btn.transform.Find("IconAndText").GetComponentInChildren<TMP_Text>().text = bm.GetPosition().ToString();
 
             }
         }
-
-        // InvokeUpdateCollection();
     }
 
     private IEnumerator InvokeUpdateCollection()
